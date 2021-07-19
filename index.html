@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Phote gallery</title>
+</head>
+
+<body>
+    <center>
+        <ul class="navbar">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#grid">Grid view</a></li>
+            <li class="links"><a href="#slide">Slide view</a></li>
+        </ul>
+    </center>
+
+    <section id="home">
+        <img id="imagehome" src="home%20img.jpg">
+    </section>
+    <br>
+    <section id="grid">
+        <img id="imagegrid" src="flowers.jpg">
+    </section>
+    <div class="container">
+        <div id="mycarausel" class="carousel-slide">
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="rose.jpg">
+                        <div class="carousel-content">
+                            <p>Rose</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="peony.jpg">
+                        <div class="carousel-content">
+                            <p>Peony</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+
+                        <img src="tulips.jpg">
+
+                        <div class="carousel-content">
+                            <p>Tulip</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
